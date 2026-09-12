@@ -108,3 +108,9 @@ Output: same-day cut when Adam drops a take
 - Cadence: weekday 11:00 Gap Auditor feed routine
 - Output: `/workspace/cmo/ops/research/gaps-YYYY-MM-DD.md` + top 3 to CMO
 - CMO prioritizes into QUEUE; Adam never manages this seat
+
+## Dept 10 — Saved Intelligence
+**Seat: Saved Content Scout**
+- Mines Adam’s IG Saved for overlap with current goals
+- Maps steals to TIAP / 15 drumbeat / growth lab / profile
+- Feeds CMO; never talks to Adam directly

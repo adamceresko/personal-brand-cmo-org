@@ -72,5 +72,5 @@
   <rect x="160" y="820" width="16" height="16" rx="3" fill="#0B0F19" stroke="#6B7280" stroke-width="2" stroke-dasharray="6 4"/>
   <text x="184" y="833" fill="#9CA3AF" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12">Next hire (planned)</text>
   <text x="40" y="870" fill="#6B7280" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12">Rhythm: Gap 11am · Scout 12pm · Brief 8am · Close 7pm · Belief Mon 9am</text>
-  <text x="40" y="892" fill="#6B7280" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12">Source of truth: /workspace/cmo/org/chart.html · also CMO-ORG.md</text>
+  <text x="40" y="892" fill="#6B7280" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12">Seats include Saved Content Scout (IG Saved → pillars) · Source: chart.html + CMO-ORG.md</text>
 </svg>
