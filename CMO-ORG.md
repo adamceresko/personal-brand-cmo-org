@@ -1,116 +1,43 @@
-# Personal Brand CMO — org (Adam Ceresko)
+# Personal Brand CMO — live org (funnel owners)
+Updated: 2026-09-13 evening · replaces dept chart
 
-Mandate: grow a durable personal brand (@adamceresko). Instagram is a channel. Twin priorities: That Is Awesome Parenting franchise + 15 Together as habit/movement/product without eating the brand.
+**Public chart:** https://adamceresko.github.io/personal-brand-cmo-org/  
+**Funnel lock:** `/workspace/cmo/ops/playbooks/north-star-funnels.md`  
+**Board:** https://adamceresko.github.io/personal-brand-cmo-org/funnel-board.html  
 
-Assumption: near-endless agent capacity. Adam’s scarce resource is attention + filming time. Org exists so CMO never waits on Adam to “start research.”
-
-## Adam (Founder / Face)
-Only jobs:
-- Film / talk on camera
-- Taste + hard nos
-- Paste Insights / drop raw takes
-- Approve: public posts, spend, outreach as him
-
-## CMO (this agent) — sole accountable
-Owns: positioning, experiment roadmap, what ships next, synthesis of all seats, QUEUE for Adam, weekly belief updates.
-Does not: wait to be asked; dump research; post as Adam.
+CMO = sole accountable. Adam = film / taste / Insights paste / public+spend / veto.
 
 ---
 
-## Dept 1 — Audience Intelligence
-**Seat: Audience Intelligence**
-- Who actually follows / converts / comments
-- Jobs-to-be-done of parents who stick
-- What creates attention vs trust vs action
-Output: audience thesis + “who we’re for” updates → CMO
+## Goal 1 — Follow (@adamceresko)
 
-## Dept 2 — Market & Creator Intelligence
-**Seat: IG Content Scout** (exists: dfc4f75e)
-**Seat: Outside-Category Scout** (hire)
-- Parent + non-parent personal brands crushing short-form
-- Series franchises, mute hooks, profile patterns
-- YouTube growth playbooks → structure only
-Output: dated research + steals mapped to Adam
+| Step | Owner | Seat id | Metric |
+|------|-------|---------|--------|
+| Stop | IG Content Scout | dfc4f75e | Skip rate · visible hooks |
+| Watch | TIAP Script triad (Curiosity / Recognition / Scenes) + edit QC skills | 4e5b525a / 051fde02 / 00c78655 | Avg watch time · body holds |
+| Engage → reach | Growth Experiments (+ Content Creation Learnings as feeder) | 836be54a (+ d1519a73) | Likes/comments/shares/saves |
+| Visit | Brand Growth Playbook | 1d91ce33 | Profile visits · pins/grid/show |
+| Follow + convert | Growth Experiments (why-follow Trials) + Playbook (name/bio) | 836be54a + 1d91ce33 | Follows · follows÷visits |
+| Scoreboard | Insights Analyst | 96e66d93 | funnel-data.json |
 
-## Dept 3 — Franchise Creative (TIAP)
-**Seats: Curiosity / Recognition / Scenes** (exist)
-**Seat: Franchise Editor / Format Lead** (hire)
-- Script contests, plain-talk + observer-awe locks
-- Cover naming bank, bumper consistency, send CTAs
-- Edit QC (Nate visual system vs Our 15 yellow)
-Output: shoot-ready scripts + edit checklists
+V=P/T is a **pre-ship craft gate for Normals** (aim ≥7), not a Follow North Star metric.
 
-## Dept 4 — Distribution & Growth Experiments
-**Seat: Growth Experiments** (hire)
-- Trial vs Normal, stitches, piggyback clips, ManyChat
-- Cadence tests, pin strategy, series packaging
-Output: ranked experiment backlog + results log
+## Goal 2 — Habit (thin until path live)
 
-## Dept 5 — Product Narrative (15 Together)
-**Seat: 15 Together narrative** (use existing 15 Together agent + CMO)
-- How brand creates belief → habit → app without becoming ads
-Output: soft weave rules + when to soft-pitch
+| Step | Owner | Seat id | Metric |
+|------|-------|---------|--------|
+| See | Growth Experiments (Soft-15) when unparked | 836be54a | Views on 15-tailored only |
+| New family | Brand soft path + **15 Together** | 1683337c | signed_up flow=founding |
+| Open | **15 Together** | 1683337c | DAU families |
+| 1:1s saved | **15 Together** | 1683337c | session_completed \| session_logged |
 
-## Dept 6 — Brand System (Profile / Story / Assets)
-**Seat: Brand Growth Playbook** (exists: 1d91ce33)
-- Bio, name line, pins, origin carousel, multi-pillar story
-- Visual/language system
-Output: living playbook + “run when free” checklist
-
-## Dept 7 — Performance / Learning
-**Seat: Insights Analyst** (hire)
-- Every post → hypothesis → result → belief update
-- Kill vanity metrics; watch non-follower reach, saves, sends, follows
-Output: after-post diagnose cards for CMO → Adam
-
-## Dept 8 — Production Ops
-**Seat: Production Pipeline** (skills + CMO; hire later if needed)
-- Dropbox → edit → QC → ship file
-- Loudness, mute hook, captions
-Output: same-day cut when Adam drops a take
-
----
+## Feeders (report to the step owner, not raw dumps to Adam)
+- Outside-Category Scout → Stop / Engage owners
+- Saved Content Scout → step owner who asked
+- Content Pool Catalog → Growth Exp (Trials)
+- Stitch Save Sync → Soft-15 / Engage when unparked (inbox clips)
+- Gap Auditor → invent vs FUNNEL/CMO-ORG lock
 
 ## Operating rhythm
-| When | Who | What |
-|------|-----|------|
-| Continuous | Scouts + Playbook | Research → /workspace/cmo/ops/ |
-| Weekday 12:00 | CMO + scouts | Midday scout (quiet unless high-signal) |
-| Weekday 08:00 | CMO | One next-move from QUEUE |
-| After every post | Insights Analyst → CMO | Diagnose → update beliefs → next asset |
-| Weekday 19:00 | CMO | Close loop only if he filmed/posted |
-| Weekly | CMO | Belief + experiment review (short) |
-
-## North-star scoreboard (not vanity)
-1. Non-follower reach on TIAP Normals
-2. Sends / saves (trust + franchise recognition)
-3. Follows from TIAP
-4. Named habit language (“our 15”) appearing in comments/DMs
-5. Waitlist/app actions without brand becoming ads
-
-## Hiring order (leverage)
-1. Insights Analyst — closes the learning loop
-2. Growth Experiments — turns research into tests
-3. Outside-Category Scout — escape local maxima
-4. Franchise Format Lead — make TIAP unmistakeable
-5. Audience Intelligence — sharpen who it’s for
-
-## Kill criteria
-- Seat that only produces essays → cut scope
-- Seat that waits for Adam → rewire to ops board
-- Seat that pitches product every time → violate brand lock
-
----
-
-## Dept 9 — Continuous Improvement (added)
-**Seat: Gap Auditor** (id: 02d1c33d-d7aa-47e6-8d2f-cb6175fc697f)
-- Only job: find gaps / opportunities; feed CMO; never talk to Adam
-- Cadence: weekday 11:00 Gap Auditor feed routine
-- Output: `/workspace/cmo/ops/research/gaps-YYYY-MM-DD.md` + top 3 to CMO
-- CMO prioritizes into QUEUE; Adam never manages this seat
-
-## Dept 10 — Saved Intelligence
-**Seat: Saved Content Scout**
-- Mines Adam’s IG Saved for overlap with current goals
-- Maps steals to TIAP / 15 drumbeat / growth lab / profile
-- Feeds CMO; never talks to Adam directly
+CMO jams a step → short **CEO** proposal to Adam (saw → try → yes/queue/no).  
+Silent doc hygiene alone is not enough.

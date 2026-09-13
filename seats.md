@@ -1,16 +1,18 @@
-# Live seats (Personal Brand CMO)
+# Seats → funnel step
 
-| Seat | Id | Dept |
-|------|-----|------|
-| Personal Brand CMO | 3857affd | Lead |
-| IG Content Scout | dfc4f75e | Intel |
-| Outside-Category Scout | b1e6963d | Intel |
-| Saved Content Scout | b3f9dc05 | Intel |
-| Gap Auditor | 02d1c33d | Growth |
-| Growth Experiments | 836be54a | Growth |
-| Insights Analyst | 96e66d93 | Growth |
-| Brand Growth Playbook | 1d91ce33 | Brand |
-| TIAP Curiosity / Recognition / Scenes | 4e5b525a / 051fde02 / 00c78655 | Franchise |
-| 15 Together (ally) | 1683337c | Product narrative |
+See CMO-ORG.md for the live map. Public: https://adamceresko.github.io/personal-brand-cmo-org/
 
-Public chart: https://adamceresko.github.io/personal-brand-cmo-org/
+| Seat | Step |
+|------|------|
+| IG Content Scout | Stop |
+| TIAP Curiosity / Recognition / Scenes | Watch (+ Stop craft for coined names under Scout/Growth) |
+| Growth Experiments | Engage · Follow Trials · Soft-15 See |
+| Brand Growth Playbook | Visit · profile convert |
+| Insights Analyst | Scoreboard |
+| 15 Together | Habit New family / Open / 1:1s |
+| Content Creation Learnings | Feeder → Engage |
+| Content Pool Catalog | Feeder → Growth Trials |
+| Saved Content Scout | Feeder → step owner |
+| Outside-Category Scout | Feeder → Stop/Engage |
+| Stitch Save Sync | Feeder → Soft-15/Engage |
+| Gap Auditor | Lock audit |
