@@ -1,0 +1,57 @@
+{
+  "updated_et": "2026-09-13 16:14",
+  "follow": {
+    "stop": {
+      "status": "na",
+      "value": "not shown",
+      "note": "skip rate absent on all owner Insights pulls (EP1 + Comeback + walk)"
+    },
+    "watch": {
+      "status": "na",
+      "value": "not shown",
+      "note": "avg watch time absent on all owner Insights pulls"
+    },
+    "engage": {
+      "status": "warn",
+      "value": "Uneven",
+      "note": "Walk DdOoaRexWIN 8/1/2/0 \u00b7 DdOl9 1/0/0/0 \u00b7 Comeback Trials near-floor \u00b7 EP1 16/4/2/1"
+    },
+    "visit": {
+      "status": "bad",
+      "value": "0 walk",
+      "note": "Walk pair Profile activity 0/0 (~5h) \u2014 Visit hole"
+    },
+    "follow": {
+      "status": "bad",
+      "value": "0 walk / thin set",
+      "note": "Walk: 0+0 \u00b7 Comeback Trials T1: 1+1+1 \u00b7 EP1 Normal: 3"
+    },
+    "convert": {
+      "status": "na",
+      "value": "n/a",
+      "note": "Walk 0\u00f70; Comeback/EP1 1.0 on tiny bases \u2014 don\u2019t trust"
+    }
+  },
+  "habit": {
+    "see": {
+      "status": "warn",
+      "value": "Thin lane",
+      "note": "Soft-15 parked \u2014 no Soft-15 Insights yet"
+    },
+    "new_family": {
+      "status": "bad",
+      "value": "Blocked",
+      "note": "ManyChat Comment 15 not live \u00b7 product owns"
+    },
+    "open": {
+      "status": "na",
+      "value": "\u2014",
+      "note": "Mixpanel DAU families \u00b7 product"
+    },
+    "ones": {
+      "status": "na",
+      "value": "\u2014",
+      "note": "1:1s saved North Star \u00b7 product"
+    }
+  }
+}
