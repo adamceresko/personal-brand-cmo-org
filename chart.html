@@ -3,83 +3,112 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Personal brand team</title>
+<title>Personal brand team — org tree</title>
 <style>
-  body { margin:0; background:#0B0F19; color:#E5E7EB; font-family: Inter, system-ui, sans-serif; line-height:1.45; }
+  body { margin:0; background:#0B0F19; color:#E5E7EB; font-family: Inter, system-ui, sans-serif; line-height:1.4; }
   header { padding:20px 24px; border-bottom:1px solid #1F2937; }
   h1 { margin:0; font-size:20px; color:#F5DE0F; }
   .meta { color:#6B7280; font-size:13px; margin-top:6px; }
-  main { padding:20px 24px 48px; max-width:1100px; }
-  object { width:100%; max-width:1400px; min-height:640px; display:block; }
-  h2 { color:#F5DE0F; font-size:18px; margin:36px 0 8px; }
-  p { color:#D1D5DB; font-size:15px; margin:0 0 12px; }
-  table { width:100%; border-collapse:collapse; margin:12px 0 24px; font-size:14px; }
-  th, td { border:1px solid #374151; padding:10px 12px; text-align:left; vertical-align:top; }
-  th { background:#111827; color:#F5DE0F; font-weight:600; }
-  td { background:#0B0F19; color:#E5E7EB; }
-  .note { color:#9CA3AF; font-size:13px; }
+  main { padding:24px; max-width:900px; }
   a { color:#F5DE0F; }
+  .tree { font-size:15px; }
+  .tree ul { list-style:none; margin:0; padding-left:28px; border-left:2px solid #374151; }
+  .tree > ul { border-left:none; padding-left:0; }
+  .tree li { margin:10px 0; position:relative; }
+  .tree > ul > li > ul { margin-top:8px; }
+  .node { display:inline-block; background:#111827; border:1px solid #374151; border-radius:8px; padding:8px 12px; }
+  .node.top { border-color:#F5DE0F; }
+  .node .name { font-weight:700; color:#F9FAFB; }
+  .node .job { display:block; color:#9CA3AF; font-size:13px; margin-top:2px; }
+  .branch { color:#F5DE0F; font-size:13px; font-weight:600; margin:16px 0 6px; }
+  .note { color:#6B7280; font-size:13px; margin-top:28px; }
 </style>
 </head>
 <body>
 <header>
   <h1>Personal brand team</h1>
-  <div class="meta">Simple org page · Sep 13 2026 · <a href="funnel-board.html">funnel board</a></div>
+  <div class="meta">Simple tree · who sits under who · Sep 13 2026 · <a href="funnel-board.html">numbers board</a></div>
 </header>
 <main>
-  <object type="image/svg+xml" data="chart.svg" width="1400" height="640">Org chart</object>
-
-  <h2>Two North Stars</h2>
-  <p>1. More Instagram followers on @adamceresko</p>
-  <p>2. More families doing a one-on-one (their 15) on 15 Together</p>
-
-  <h2>North Star 1 — Follow funnel</h2>
-  <p>Who owns each step:</p>
-  <table>
-    <thead>
-      <tr><th>Step</th><th>What we measure</th><th>Who owns it</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>Stop</td><td>Skip rate (first 3 seconds)</td><td>IG Content Scout</td></tr>
-      <tr><td>Watch</td><td>Average watch time</td><td>TIAP Curiosity · Recognition · Scenes</td></tr>
-      <tr><td>Engage</td><td>Likes, comments, shares, saves</td><td>Growth Experiments</td></tr>
-      <tr><td>Visit</td><td>Profile visits</td><td>Brand Growth Playbook</td></tr>
-      <tr><td>Follow</td><td>Follows · follows ÷ visits</td><td>Growth Experiments + Brand Growth Playbook</td></tr>
-      <tr><td>Scoreboard</td><td>Write the numbers down</td><td>Insights Analyst</td></tr>
-    </tbody>
-  </table>
-
-  <h2>North Star 2 — Habit funnel</h2>
-  <p>Thin until Comment 15 + Mixpanel are ready. Who owns each step:</p>
-  <table>
-    <thead>
-      <tr><th>Step</th><th>What we measure</th><th>Who owns it</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>See</td><td>Views on 15 content</td><td>Growth Experiments (parked for now)</td></tr>
-      <tr><td>New family</td><td>New signups (founding)</td><td>15 Together</td></tr>
-      <tr><td>Open</td><td>Families who open the app</td><td>15 Together</td></tr>
-      <tr><td>1:1s saved</td><td>Logged one-on-ones</td><td>15 Together</td></tr>
-    </tbody>
-  </table>
-
-  <h2>Helpers</h2>
-  <p>These people find ideas and hand them to the owners above. They do not dump piles on Adam.</p>
-  <table>
-    <thead>
-      <tr><th>Helper</th><th>Hands work to</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>Outside-Category Scout</td><td>Stop / Engage owners</td></tr>
-      <tr><td>Saved Content Scout</td><td>Whoever asked</td></tr>
-      <tr><td>Content Pool Catalog</td><td>Growth Experiments</td></tr>
-      <tr><td>Content Creation Learnings</td><td>Growth Experiments</td></tr>
-      <tr><td>Stitch Save Sync</td><td>Growth Experiments (when Soft-15 is on)</td></tr>
-      <tr><td>Gap Auditor</td><td>CMO (flags when we invent)</td></tr>
-    </tbody>
-  </table>
-
-  <p class="note">Adam: film, taste, Insights paste, yes/no on public posts and spend. CMO: runs the team and brings you short calls.</p>
+  <div class="tree">
+    <ul>
+      <li>
+        <div class="node top"><span class="name">Adam</span><span class="job">Film · taste · Insights paste · yes/no on public posts and spend</span></div>
+        <ul>
+          <li>
+            <div class="node top"><span class="name">Personal Brand CMO</span><span class="job">Runs the team · both North Stars · brings Adam short calls</span></div>
+            <ul>
+              <li>
+                <div class="branch">North Star 1 — more followers</div>
+                <ul>
+                  <li>
+                    <div class="node"><span class="name">IG Content Scout</span><span class="job">Stop · first 3 seconds / skip rate</span></div>
+                  </li>
+                  <li>
+                    <div class="node"><span class="name">TIAP · Curiosity</span><span class="job">Watch · scripts that hold</span></div>
+                  </li>
+                  <li>
+                    <div class="node"><span class="name">TIAP · Recognition</span><span class="job">Watch · scripts that hold</span></div>
+                  </li>
+                  <li>
+                    <div class="node"><span class="name">TIAP · Scenes</span><span class="job">Watch · scripts that hold</span></div>
+                  </li>
+                  <li>
+                    <div class="node"><span class="name">Growth Experiments</span><span class="job">Engage · why-follow Trials · Soft-15 when on</span></div>
+                    <ul>
+                      <li>
+                        <div class="node"><span class="name">Content Creation Learnings</span><span class="job">Helper · patterns from Saved → Growth</span></div>
+                      </li>
+                      <li>
+                        <div class="node"><span class="name">Content Pool Catalog</span><span class="job">Helper · Trial ideas → Growth</span></div>
+                      </li>
+                      <li>
+                        <div class="node"><span class="name">Stitch Save Sync</span><span class="job">Helper · clip inbox → Growth</span></div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="node"><span class="name">Brand Growth Playbook</span><span class="job">Visit → Follow · name · bio · pins · Highlights</span></div>
+                  </li>
+                  <li>
+                    <div class="node"><span class="name">Insights Analyst</span><span class="job">Scoreboard · writes the funnel numbers</span></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div class="branch">North Star 2 — families doing a 15</div>
+                <ul>
+                  <li>
+                    <div class="node"><span class="name">15 Together</span><span class="job">New families · open app · 1:1s saved</span></div>
+                    <ul>
+                      <li>
+                        <div class="node"><span class="name">15 Together Perf</span><span class="job">App performance under 15 Together</span></div>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div class="branch">Also report to CMO</div>
+                <ul>
+                  <li>
+                    <div class="node"><span class="name">Outside-Category Scout</span><span class="job">Helper · steals from outside parenting</span></div>
+                  </li>
+                  <li>
+                    <div class="node"><span class="name">Saved Content Scout</span><span class="job">Helper · mines IG Saved</span></div>
+                  </li>
+                  <li>
+                    <div class="node"><span class="name">Gap Auditor</span><span class="job">Flags when we invent vs the lock</span></div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <p class="note">Tree only. Temporary one-off helpers are not seats. Sub-agent list updating as seats reply.</p>
 </main>
 </body>
 </html>
